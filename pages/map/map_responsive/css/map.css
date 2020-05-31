@@ -1,0 +1,100 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+body {font-family: "MyriadPro";}
+.wrap-country {
+	background-image: url(../img/bg.jpg);
+	-moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	min-height:752px;
+}
+.country {
+	min-width:377px;
+	min-height:377px;
+	width:33.3%;
+}
+.america {background: rgba(42, 42, 42, 0.75);}
+.europe {background: rgba(99, 4, 96, 0.75);}
+.asia {background: rgba(158, 11, 15, 0.75);}
+.africa {background: rgba(255, 242, 0, 0.75);}
+.avstralia {background: rgba(247, 148, 29, 0.75);}
+.country-info_bg {background: rgba(42, 42, 42, 0.34);}
+.country-title {
+	font-weight: bold;
+	font-size:38px;
+	color: white;
+	text-align: center;
+	height:57px;
+	line-height:57px;
+}
+.country-info {
+	width:90%;
+	min-width:325px;
+	min-height:264px;
+	margin: 0 auto;
+}
+.info-head {
+	display:flex;
+	height:62px;
+}
+.info-flag {
+	width:100px;
+	height:62px;
+}
+.info-title {
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+	line-height:62px;
+	margin-left: 15px;
+}
+.citys-info {}
+.citys-title {
+	height:80px;
+	color: white;
+	font-size: 26px;
+	padding: 35px 0 0 16px;
+}
+.citys {}
+.city {
+	height:35px;
+	display: flex;
+	padding:0 0 0 16px;
+	margin-bottom: 13px;
+}
+.city-flag {
+	width:57px;
+	height:35px;
+}
+.city-title {
+	height:35px;
+	color: white;
+	font-size: 21px;
+	line-height:35px;
+	padding: 0 0 0 8px;
+}
+@font-face {
+	font-family: "MyriadPro";
+	src: url(../../../fonts/MyriadPro/MyriadPro-Regular.ttf);
+	font-style: normal; 
+	font-weight: normal;
+}
+@font-face {
+	font-family: "MyriadPro";
+	src: url(../../../fonts/MyriadPro/MyriadPro-Bold.ttf);
+	font-style: normal; 
+	font-weight: bold;
+}
