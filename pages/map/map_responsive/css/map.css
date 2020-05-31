@@ -88,13 +88,13 @@ body {font-family: "MyriadPro";}
 }
 @font-face {
 	font-family: "MyriadPro";
-	src: url(../../../fonts/MyriadPro/MyriadPro-Regular.ttf);
+	src: url(../../../../fonts/MyriadPro/MyriadPro-Regular.ttf);
 	font-style: normal; 
 	font-weight: normal;
 }
 @font-face {
 	font-family: "MyriadPro";
-	src: url(../../../fonts/MyriadPro/MyriadPro-Bold.ttf);
+	src: url(../../../../fonts/MyriadPro/MyriadPro-Bold.ttf);
 	font-style: normal; 
 	font-weight: bold;
 }
