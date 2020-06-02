@@ -56,7 +56,7 @@ h1 {
 .homework-img {
 	height: 200px;
 	overflow: hidden;
-	border-radius: 5px;
+	border-radius: 5px 5px 0 0;
 }
 .homework-img img {height: auto;}
 .title-homework {
