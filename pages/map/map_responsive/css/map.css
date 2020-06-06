@@ -10,6 +10,7 @@ img {
 }
 body {font-family: "MyriadPro";}
 .wrap-country {
+	min-width:320px;
 	background-image: url(../img/bg.jpg);
 	-moz-background-size: 100%;
     -webkit-background-size: 100%;
@@ -21,10 +22,20 @@ body {font-family: "MyriadPro";}
 	justify-content: flex-end;
 	min-height:752px;
 }
+.hideEmpty {display:none;}
 .country {
-	min-width:377px;
 	min-height:377px;
-	width:33.3%;
+	width:25%;
+}
+@media (max-width: 2000px) {    
+  	.country {width:33.3%;}
+}
+@media (max-width: 1130px) {    
+  	.country {width:50%;}
+  	.hideEmpty {display:none;}
+}
+@media (max-width: 640px) {    
+  	.country {width:100%;}
 }
 .america {background: rgba(42, 42, 42, 0.75);}
 .europe {background: rgba(99, 4, 96, 0.75);}
@@ -42,7 +53,6 @@ body {font-family: "MyriadPro";}
 }
 .country-info {
 	width:90%;
-	min-width:325px;
 	min-height:264px;
 	margin: 0 auto;
 }

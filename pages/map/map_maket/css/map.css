@@ -13,6 +13,7 @@ body {font-family: "MyriadPro";}
 	background-image: url(../img/bg.jpg);
 	background-repeat: no-repeat repeat;
 	max-width: 1131px;
+	min-width:400px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-end;
@@ -20,8 +21,23 @@ body {font-family: "MyriadPro";}
 	margin: 0 auto;
 }
 .country {
-	width:377px;
+	max-width:377px;
+	width:33.3%;
 	height:377px;
+	padding:0 26px 0 26px;
+}
+@media (max-width: 950px) { 
+	.container {justify-content: space-between;}    
+  	.country {
+  		width:50%;
+  		max-width:1000px;
+  	}
+  	.hideEmpty {display:none;}
+}
+@media (max-width: 670px) {   
+  	.country {
+  		width:100%;
+  	}
 }
 .america {background: rgba(42, 42, 42, 0.75);}
 .europe {background: rgba(99, 4, 96, 0.75);}
@@ -38,7 +54,6 @@ body {font-family: "MyriadPro";}
 	line-height:57px;
 }
 .country-info {
-	width:325px;
 	height:264px;
 	margin: 0 auto;
 }
