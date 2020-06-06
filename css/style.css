@@ -27,10 +27,16 @@ h1 {
 	font-weight: bold;
 	color: #35373B;
 }
+.br__nextLine {display:none;}
+@media (max-width: 620px) {
+	.br__nextLine {display: inline;}
+}
+
 .name {color: black;}
 .wrapper {
+	max-width:1920px;
 	width:90%;
-	min-width:200px;
+	min-width:320px;
 	margin: 0 auto;
 }
 .ul-homework {
@@ -40,13 +46,25 @@ h1 {
 	justify-content: space-between;
 }
 .li-homework {
-	width: 32%;
-	min-width: 200px;
+	width: 23%;
 	list-style: none;
 	margin-top: 20px;
 	padding: 0 0 14px 0;
 	border: 2px solid #DAE0F1;
 	border-radius: 5px;
+}
+@media (max-width: 1430px) {    
+  .li-homework {width:32%;}
+}
+@media (max-width: 1070px) {    
+  .li-homework {width:48%;}
+}
+@media (max-width: 620px) {
+	.ul-homework {justify-content: center;}  
+	.li-homework {
+		width:80%;
+		min-width:320px;
+	}
 }
 .li-homework:hover {
 	border: 2px solid #666971;
