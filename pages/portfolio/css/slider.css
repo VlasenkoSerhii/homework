@@ -1,0 +1,116 @@
+.header__slider__wrap {max-height:1000px;}
+.slide {
+	/*background-image:url(../img/header_bg.jpg);*/
+	background-size:100%;
+}
+.slide__1 {background-image:url(../img/header_bg.jpg);}
+.slide__2 {background-image:url(../img/header_bg3.jpg);}
+.slide__3 {background-image:url(../img/header_bg.jpg);}
+.slick-list {
+	overflow: hidden;
+}
+/* Ëåíòà ñëàéäîâ */
+.slick-track{
+	display: flex;
+}
+.header__slider {
+	position:relative;
+	width:100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+/*Ðîáîòà ³ç òî÷êàìè ñëàéäåðà*/
+.header__slider .slick-dots {
+	position: absolute;
+	bottom:22%;
+	right:8%;
+	align-items: center; /*ñïèñîê ³ç òî÷êàìè ïî öåíòðó*/
+	justify-content: center;
+}
+.header__slider .slick-dots li {
+	list-style: none; /*óáèðàºìî ìàðêåðè ñïèñêà á³ëÿ òî÷îê*/
+	margin:0px 10px; /*â³äñòóïè ì³æ òî÷êàìè*/
+}
+.header__slider .slick-dots li.slick-active button { /*çîâí. âèãëÿä àêòèâíî¿ òî÷êè*/
+	background-color: white;
+}
+.header__slider .slick-dots button {
+	font-size: 0; /*óáèðàºìî íàäï³ñ³ 1, 2, 3 ³ ò. ä. á³ëÿ òî÷îê*/
+	width:11px;  /*äàë³ ï³øîâ çîâí³øí³é âèãëÿä òî÷îê*/
+	height:11px;
+	border: 2px solid white;
+	border-radius: 50%;
+	background-color:transparent;
+}
+
+
+
+/*slider 2*/
+.comments_wrap {
+	width:100%;
+	background-color:#F2F2F1;
+	padding:100px 0 100px 0;
+}
+.comments__slider {
+	position:relative;
+	max-width:1180px;
+	height: auto;
+	margin: 0 auto;
+}
+.comments__slider__list {
+	width:100%;
+	height:100%;
+}
+/*.slick-list {
+	overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+	display: flex;
+}
+
+/*Робота із точками слайдера*/
+.comments__slider .slick-dots {
+	display: flex;
+	align-items: center; /*список із точками по центру*/
+	justify-content: center;
+}
+.comments__slider .slick-dots li {
+	list-style: none; /*убираємо маркери списка біля точок*/
+	margin:0px 5px; /*відступи між точками*/
+}
+.comments__slider .slick-dots li.slick-active button { /*зовн. вигляд активної точки*/
+	background-color: #2ECC71;
+}
+.comments__slider .slick-dots button {
+	font-size: 0; /*убираємо надпісі 1, 2, 3 і т. д. біля точок*/
+	width:11px;  /*далі пішов зовнішній вигляд точок*/
+	height:11px;
+	border-radius: 50%;
+	border:2px solid #2ECC71;
+}
+
+.comments {
+	max-width:1180px;
+	margin: 0 auto;
+	padding:100px 0 100px 0px;
+}
+.comments__text {
+	font-size:24px;
+	line-height:36px;
+	color:#919191;
+	text-align: center;
+	font-style: italic;
+}
+.comments__author {
+	color:#566366;
+	font-size:18px;
+	text-transform: uppercase;
+	line-height:36px;
+	text-align: center;
+	font-weight: bold;
+	margin-top:35px;
+	padding-bottom:35px;
+}
+

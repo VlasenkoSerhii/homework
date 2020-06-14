@@ -4,66 +4,77 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Portfolio</title>
+	<link rel="shortcut icon" href='../../img/favicon.png'>
 	<link rel="stylesheet" href="css/portfolio.css">
+	<link rel="stylesheet" href="css/slider.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/animate.css">
 </head>
 <body>
 	<header>
-		<div class='header__title'>
-			<div class='header__title-line'></div>
-			<h1>web &#38; graphic designer</h1>
-			<div class='header__title-line'></div>
+		<div class='header__slider__wrap'>
+			<div class='header__slider'>
+				<div class='slide__1 slide'></div>
+   				<div class='slide__2 slide'></div>
+    			<div class='slide__3 slide'></div>
+			</div>
 		</div>
-		<div class='header__button'>learn more</dib>
+		<div class='header__title'>Web &amp; Graphic Designer</div>
+		<div class='header__button'>learn more</div>
 	</header>
 	<div class='header-menu_wrap'>
-		<div class='header-menu'>
-			<div class='header-menu__logo'>
+		<nav class='header__nav'>
+			<div class='logo'>
 				<a href='#'>
 					<img src='img/logo.png' alt='logo'>
 				</a>
 			</div>
-			<ul class='header-menu__ul'>
-				<li><a href='#' class='menu-a'>home</a></li>
-				<li><a href='#' class='menu-a'>about me</a></li>
-				<li><a href='#' class='menu-a'>skills</a></li>
-				<li><a href='#' class='menu-a'>resume</a></li>
-				<li><a href='#' class='menu-a'>testimonials</a></li>
-				<li><a href='#' class='menu-a'>portfolio</a></li>
-				<li><a href='#' class='menu-a menu-a_last'>contact me</a></li>
+			<ul class='header__ul'>
+				<li><a href='#' class='menu_a'>home</a></li>
+				<li><a href='#aboutMe' class='menu_a'>about me</a></li>
+				<li><a href='#skills' class='menu_a'>skills</a></li>
+				<li><a href='#resume' class='menu_a'>resume</a></li>
+				<li><a href='#testimonials' class='menu_a'>testimonials</a></li>
+				<li><a href='#portfolio' class='menu_a'>portfolio</a></li>
+				<li><a href='#contactMe' class='menu_a menu_a_last'>contact me</a></li>
 			</ul>
+			<div class='header__burger'> <!-- бургер із спана + after + before -->
+				<span></span>
+			</div>
+		</nav>
 		</div>
-	</div>
-	<div class='block__items'>
+	<div class='block__items wow fadeInLeft'>
 		<ul class='block__items-ul'>
 			<li>
 				<div class='block__items-title'>values</div>
 				<div class='block__items-text'>
-					Lorem ipsum dolor sit amet, ea doming until <br>
-					epicuri iudicabit nam, te usu virtute placerat. <br>
+					Lorem ipsum dolor sit amet, ea doming until <br class='items__br'>
+					epicuri iudicabit nam, te usu virtute placerat. <br class='items__br'>
 					Purto brute disputando cu est.
 				</div>
 			</li>
 			<li>
 				<div class='block__items-title'>goals</div>
 				<div class='block__items-text'>
-					Lorem ipsum dolor sit amet, ea doming until <br>
-					epicuri iudicabit nam, te usu virtute placerat. <br>
+					Lorem ipsum dolor sit amet, ea doming until <br class='items__br'>
+					epicuri iudicabit nam, te usu virtute placerat. <br class='items__br'>
 					Purto brute disputando cu est.
 				</div>
 			</li>
 			<li>
 				<div class='block__items-title'>hobbies</div>
 				<div class='block__items-text'>
-					Lorem ipsum dolor sit amet, ea doming until <br>
-					epicuri iudicabit nam, te usu virtute placerat. <br>
+					Lorem ipsum dolor sit amet, ea doming until <br class='items__br'>
+					epicuri iudicabit nam, te usu virtute placerat. <br class='items__br'>
 					Purto brute disputando cu est.
 				</div>
 			</li>
 		</ul>
+
 	</div>
-	<div class='aboutMe__wrap'>
+	<div class='aboutMe__wrap wow fadeInLeft'><a name='aboutMe'></a>
 		<div class='aboutMe'>
-			<div class='aboutMe__img'>
+			<div class='aboutMe__img  wow slideInUp'>
 				<img src='img/aboutMe.jpg' alt='photo'>
 			</div>
 			<div class='aboutMe__info'>
@@ -83,7 +94,7 @@
 						<div class='category__info'>
 							<div class='categories__title'>web design</div>
 							<div class='categories__text'>
-								Lorem ipsum dolor sit amet, ea <br>
+								Lorem ipsum dolor sit amet, ea <br class='category_br'>
 								doming epicuri iudicabit nam.
 							</div>
 						</div>
@@ -95,7 +106,7 @@
 						<div class='category__info'>
 							<div class='categories__title'>graphic design</div>
 							<div class='categories__text'>
-								Lorem ipsum dolor sit amet, ea <br>
+								Lorem ipsum dolor sit amet, ea <br  class='category_br'>
 								doming epicuri iudicabit nam.
 							</div>
 						</div>
@@ -107,7 +118,7 @@
 						<div class='category__info'>
 							<div class='categories__title'>online marketing</div>
 							<div class='categories__text'>
-								Lorem ipsum dolor sit amet, ea <br>
+								Lorem ipsum dolor sit amet, ea <br class='category_br'>
 								doming epicuri iudicabit nam.
 							</div>
 						</div>
@@ -119,7 +130,7 @@
 						<div class='category__info'>
 							<div class='categories__title'>seo</div>
 							<div class='categories__text'>
-								Lorem ipsum dolor sit amet, ea <br>
+								Lorem ipsum dolor sit amet, ea <br class='category_br'>
 								doming epicuri iudicabit nam.
 							</div>
 						</div>
@@ -128,5 +139,303 @@
 			</div>
 		</div>
 	</div>
+	<div class='mySkills__wrap  wow fadeInLeft'><a name='skills'></a>
+		<div class='mySkills__info'>
+			<div class='mySkills__title'>my skills</div>
+			<div class='mySkills__text'>
+				Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei, cum ne periculis molestiae pri. 
+
+				<p class='mySkills_p'>Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est.</p>
+			</div>
+			<div class='mySkills__button'>contact me</div>
+		</div>
+		<div class='mySkills__progress'>
+			<div class='mySkills__element'>
+				<div class='mySkills__element__title'>photoshop</div>
+				<div class='mySkills__element__progress'>
+					<div class='scale__progress progress__photoshop'>
+						<div class='scale__progress__text'>90 %</div>
+					</div>
+				</div>
+			</div>
+			<div class='mySkills__element'>
+				<div class='mySkills__element__title'>Illustrator</div>
+				<div class='mySkills__element__progress'>
+					<div class='scale__progress progress__illustrator'>
+						<div class='scale__progress__text'>80 %</div>
+					</div>
+				</div>
+			</div>
+			<div class='mySkills__element'>
+				<div class='mySkills__element__title'>HTML / CSS</div>
+				<div class='mySkills__element__progress'>
+					<div class='scale__progress progress__html'>
+						<div class='scale__progress__text'>90 %</div>
+					</div>
+				</div>
+			</div>
+			<div class='mySkills__element'>
+				<div class='mySkills__element__title'>PHP / MYSQL</div>
+				<div class='mySkills__element__progress'>
+					<div class='scale__progress progress__php'>
+						<div class='scale__progress__text'>70 %</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class='resume__wrap  wow fadeInLeft'><a name='resume'></a>
+		<div class='resume'>
+			<div class='resume__title'>resume</div>
+			<div class='resume__text'>Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei, cum ne periculis molestiae pri. </div>
+			<a class='downloadResume' href='documents/porno.docx' download title='download'>
+				<div class='resume__button'>Download Resume</div>
+			</a>
+		</div>
+	</div>
+	<div class='resume__arrow-wrap'>
+		<div class='resume__arrow'></div>
+	</div>
+	<div class='education__wrap'><a name='testimonials'></a>
+		<div class='education__title'>my education</div>
+		<div class='education'>
+			<div class='education__text'>
+				Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei, cum ne periculis molestiae pri. 
+				<p class='education__p'>Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. 	Purto brute disputando cu est.</p>
+			</div>
+			<div class='education__result'>
+				<div class='education__result-1'>
+					<div class='result__title'>
+						Graphic Design Diploma
+					</div>
+					<div class='result__plase'>
+						Reeves College  /  June 2008 - May 2010
+					</div>
+					<div class='result__decoration'>4.0 GPA</div>
+					<div class='result__line'></div>
+					<div class='result__text'>
+						Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei.
+					</div>
+				</div>	
+				<div class='education__result-2'>
+					<div class='result__title'>
+						CIT Diploma
+					</div>
+					<div class='result__plase'>
+						Lethbridge College  /  June 2006 - May 2008
+					</div>
+					<div class='result__decoration'>4.0 GPA</div>
+					<div class='result__line'></div>
+					<div class='result__text'>
+						Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei.
+					</div>
+				</div>		
+			</div>
+		</div>
+	</div>
+	<div class='experience__wrap  wow fadeInLeft'>
+		<div class='experience__title'>Work Experience</div>
+		<div class='experience'>
+			<div class='experience__text'>
+				Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei, cum ne periculis molestiae pri. 
+				<p class='experience__p'>Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. 	Purto brute disputando cu est.</p>
+			</div>
+			<div class='experience__result'>
+				<div class='experience__result-1'>
+					<div class='result__title'>
+						Lead WEb Designer
+					</div>
+					<div class='result__plase'>
+						ABC Company, Saskatoon  /  June 2011 - Present
+					</div>
+					<div class='result__decoration'>3 Years</div>
+					<div class='result__line'></div>
+					<div class='result__text'>
+						Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei.
+					</div>
+				</div>	
+				<div class='experience__result-2'>
+					<div class='result__title'>
+						Junior Designer
+					</div>
+					<div class='result__plase'>
+						XYZ Company, Lethbridge  /  June 2008 - May 2009
+					</div>
+					<div class='result__decoration'>1 Years</div>
+					<div class='result__line'></div>
+					<div class='result__text'>
+						Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei.
+					</div>
+				</div>
+				<div class='experience__result-3'>
+					<div class='result__title'>
+						Web Developer
+					</div>
+					<div class='result__plase'>
+						The Company, Lethbridge  /  June 2007 - May 2008
+					</div>
+					<div class='result__decoration'>1 Years</div>
+					<div class='result__line'></div>
+					<div class='result__text'>
+						Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei.
+					</div>
+				</div>				
+			</div>
+		</div>
+	</div>
+	<div class='comments_wrap  wow fadeInLeft'>
+		<div class='comments__slider'>
+			<div class='comments__slider__list'>
+				<div class='comments__text'>
+					“Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei, cum ne periculis molestiae pri. Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.”
+				</div>
+				<div class='comments__author'>John Stone</div>
+			</div>
+			<div class='comments__slider__list'>
+				<div class='comments__text'>
+					“Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei, cum ne periculis molestiae pri. Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.”
+				</div>
+				<div class='comments__author'>John Stone</div>
+			</div>
+			<div class='comments__slider__list'>
+				<div class='comments__text'>
+					“Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei, cum ne periculis molestiae pri. Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.”
+				</div>
+				<div class='comments__author'>John Stone</div>
+			</div>
+		</div>
+	</div>
+	<div class='portgolio__wrap  wow fadeInLeft'><a name='portfolio'></a>
+		<div class='portfolio'>
+			<div class='porfolio__title'>portfolio</div>
+			<div class='portfolio__text'>
+				Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei, cum ne periculis molestiae pri. 
+			</div>
+			<div class='portfolio__list'>
+				<ul class='portfolio__ul'>
+					<li class='portfolio__li portfolio__filter'>
+						<div class='filter__title'>
+							filter by category
+						</div>
+						<ul class='filter__ul'>
+							<li class='filter__li filter__li_checked'>All</li>
+							<li class='filter__li'>Themes</li>
+							<li class='filter__li'>Icons</li>
+							<li class='filter__li'>Patterns</li>
+							<li class='filter__li'>Mockups</li>
+							<li class='filter__li'>UI Kits</li>
+						</ul>
+					</li>
+					<li class='portfolio__li portfolioImg-2'>
+						<div class='portfolio__watch-img'>
+							<div class='portfolio__lupa'></div>
+						</div>
+					</li>
+					<li class='portfolio__li portfolioImg-3'>
+						<div class='portfolio__watch-img'>
+							<div class='portfolio__lupa'></div>
+						</div>
+					</li>
+					<li class='portfolio__li portfolioImg-4'>
+						<div class='portfolio__watch-img'>
+							<div class='portfolio__lupa'></div>
+						</div>
+					</li>
+					<li class='portfolio__li portfolioImg-5'>
+						<div class='portfolio__watch-img'>
+							<div class='portfolio__lupa'></div>
+						</div>
+					</li>
+					<li class='portfolio__li portfolioImg-6'>
+						<div class='portfolio__watch-img'>
+							<div class='portfolio__lupa'></div>
+						</div>
+					</li>
+					<li class='portfolio__li portfolioImg-7'>
+						<div class='portfolio__watch-img'>
+							<div class='portfolio__lupa'></div>
+						</div>
+					</li>
+					<li class='portfolio__li portfolioImg-8'>
+						<div class='portfolio__watch-img'>
+							<div class='portfolio__lupa'></div>
+						</div>
+					</li>
+					<li class='portfolio__li portfolioImg-9'>
+						<div class='portfolio__watch-img'>
+							<div class='portfolio__lupa'></div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class='contactMe_wrap  wow fadeInLeft'><a name='contactMe'></a>
+		<div class='contactMe__container'>
+			<div class='contactMe'>
+				<div class='contactMe__title'>contact me</div>
+				<div class='contactMe__info'>
+					Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei.
+
+					<p class='contactMe__p'>122 33rd Street East<br>
+					Saskatoon, SK<br>
+					S7K 1R9</p>
+					<div class='contactMe__adress'>
+						<div class='contactMe__adress-1'>
+							<div class='adress__title'>Email:</div>
+							<div class='adress__info'>info&#64;focal.com</div>
+						</div>
+						<div class='contactMe__adress-2'>
+							<div class='adress__title'>Phone:</div>
+							<div class='adress__info'>1-306-222-2323</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class='contactMe__form'>
+				<form name="form" action="" method="post" class="form_message">
+					<div class="form__titles">
+						Name <span class='span__star'>*</span>
+					</div>
+					<input class="input" name="name" type="text"/>
+					<div class="form__titles">
+						Email Address <span class='span__star'>*</span>
+					</div>
+					<input class="input" name="email" type="text"/>
+					<div class="form__titles">
+		 				Message <span class='span__star'>*</span>
+		 			</div>
+		 			<textarea name="message" cols="22" rows="5" />
+		 			</textarea>
+					<input id="submit" value="contact me" type="submit" class='wow slideInUp'/>
+				</form>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class='footer__wrap'>
+			<div class='footer__copyright'>
+				Copyright 2014 Focal - Built With Passion
+			</div>
+			<div class='footer__socials'>
+				<ul class='footer__ul'>
+					<li class='footer__li footer_twiter'></li>
+					<li class='footer__li footer_facebook'></li>
+					<li class='footer__li footer_pinterest'></li>
+					<li class='footer__li footer_google'></li>
+					<li class='footer__li footer_dribble'></li>
+					<li class='footer__li footer_linkedin'></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<script src='https://code.jquery.com/jquery-3.5.1.min.js'></script>
+	<script src='js/height.js'></script>
+	<script src='js/slick.min.js'></script>
+	<script src='js/script.js'></script>
+	<script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>
