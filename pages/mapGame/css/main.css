@@ -1,0 +1,33 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+body {background-color:#E3C788;}
+.wrapper {
+	max-width:550px;
+	margin: 0 auto;
+	min-width:200px;
+}
+header {margin: 25px 0px;}
+h1, h2 {text-align: center;}
+h1 {color:#681702;}
+h2 {margin-top:15px;}
+.map-info {
+	width:100%;
+	padding-bottom: 15px;
+}
+.map {
+	width:100%;
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+@media (max-width: 551px){
+	.wrapper {width:95%;}
+}
